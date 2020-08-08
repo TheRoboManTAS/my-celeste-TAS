@@ -1,0 +1,95 @@
+#Start from "begin"
+
+unsafe
+
+   1,D
+   1,J
+  41
+   1,R
+   1,F,90
+   1,R
+   1,F,90
+   1,J
+   1,L
+   1,F,270
+   1,L
+   1,F,270
+   1,L
+   1,F,270
+   1,L
+   1,F,270
+   1,L
+   1,D
+   1,J
+   1,R
+   1,F,90
+   1,R
+   1,F,90
+   1,U
+   1,J
+   1,L
+   1,F,270
+   1,L
+   1,F,270
+   1,L
+   1,F,270
+   1,D
+   1,J
+   1,R
+   1,F,90
+   1,U
+   1,J
+   1,L
+   1,J
+   1,L
+   1,F,270
+   1,L
+   1,J
+   1,D
+   1,R
+   1,F,90
+   1,R
+   1,J
+   1,S
+  48
+   1,D
+   1,F,180
+   1,D
+   1,R
+   1,F,90
+   1,R
+   1,F,90
+   1,U
+   1,F,
+   1,U
+   1,F,
+   1,J
+
+Read,Etselec_1A,Start
+Read,nextMap
+
+Read,Etselec_2A,Start
+Read,nextMap
+
+Read,Etselec_3A,Start
+Read,nextMap
+
+Read,Etselec_4A,Start
+Read,nextMap
+
+Read,Etselec_5A
+Read,nextMap
+
+console cheat
+
+Read,Etselec_6A
+Read,nextMap,1,9
+   1,R
+   1,J
+  30
+   1,J
+
+Read,Etselec_7B
+
+  60
+   1,J
