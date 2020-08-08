@@ -1,0 +1,46 @@
+#start from spring side "climb" button
+#for file timer to work
+#properly, you need to clear
+#it from the files before starting
+
+
+
+unsafe
+   1,J
+  47
+
+Read,springside,5
+
+Read,nextMap
+
+Read,summerside,5
+
+Read,nextMap
+
+Read,winterside,5
+
+Read,nextMap
+
+Read,fallside,5
+
+Read,nextMap
+
+Read,voidside,5
+
+ 150
+   1,J
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
