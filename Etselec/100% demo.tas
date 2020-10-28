@@ -1,0 +1,122 @@
+unsafe
+
+#start from "begin"
+
+#Start
+   1,D
+   1,J
+  41
+   1,R
+   1,F,90
+   1,R
+   1,F,90
+   1,J
+   1,L
+   1,F,270
+   1,L
+   1,F,270
+   1,L
+   1,F,270
+   1,L
+   1,F,270
+   1,L
+   1,D
+   1,J
+   1,R
+   1,F,90
+   1,R
+   1,F,90
+   1,U
+   1,J
+   1,L
+   1,F,270
+   1,L
+   1,F,270
+   1,L
+   1,F,270
+   1,D
+   1,J
+   1,R
+   1,F,90
+   1,U
+   1,J
+   1,L
+   1,J
+   1,L
+   1,F,270
+   1,L
+   1,J
+   1,D
+   1,R
+   1,F,90
+   1,R
+   1,J
+   1,S
+  48
+   1,D
+   1,F,180
+   1,D
+   1,R
+   1,F,90
+   1,R
+   1,F,90
+   1,R
+   1,F,90
+   1,U
+   1,F,
+   1,U
+   1,F,
+   1,J
+
+Read,Etselec_1A_SC,Start,Exit
+
+   1,S
+   1,U,J
+   1,O
+ 383
+   1,J
+  30
+   1,J
+  45
+
+Read,Etselec_1A_SC,Continue
+
+Read,LoadA
+
+Read,Etselec_2A_SC,Start
+
+Read,LoadA
+
+Read,Etselec_3A_SC,Start
+
+  59
+   1,J
+ 360
+   1,J
+  83
+   1,S
+ 172
+   1,L
+   8
+   1,L
+   8
+   1,L
+   8
+   1,J
+  21
+   1,R
+   1,J
+ 303
+
+Read,Etselec_1B,Start
+
+Read,LoadB
+
+Read,Etselec_2B,Start
+
+Read,LoadB
+
+Read,Etselec_3B,Start
+
+  59
+   1,J

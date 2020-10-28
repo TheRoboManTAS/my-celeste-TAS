@@ -1,0 +1,71 @@
+#start from "begin"
+
+Read,StartFullGameFile
+
+Read,LoadEnableCheatMode
+
+   1,X
+  42
+
+#configure the amount of
+#down presses if you need to
+   1,D
+
+  60
+   1,D
+
+  31
+   1,D
+
+  31
+   1,D
+
+  26
+   1,J
+
+  21
+   1,R
+   1,F,90
+   1,J
+  46
+
+Read,Etselec_1C,5
+
+Read,LoadCCheatMode
+
+Read,Etselec_2C,5
+
+Read,LoadCCheatMode
+
+Read,Etselec_3C,5
+
+Read,LoadCCheatMode
+
+Read,Etselec_4C,5
+
+Read,LoadCCheatMode
+
+Read,Etselec_5C,5
+
+Read,LoadCCheatMode
+
+Read,Etselec_6C,5
+
+Read,LoadCCheatMode
+
+Read,Etselec_7C,5
+
+Read,LoadCCheatMode
+
+Read,Etselec_8C,5
+
+   1,S
+   1,U,J
+   1,O
+ 107
+  86
+   1,X
+  20
+   1,N
+  30
+   1,R
