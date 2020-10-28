@@ -1,0 +1,150 @@
+Set,DisableScreenShake,true
+Set,DisableFlashes,true
+Set,SpeedrunClock,2
+Set,Everest.ShowModOptionsInGame,false
+
+Unsafe
+
+
+#Start from "Begin"
+
+
+
+
+
+#this is only for
+#working on the TAS
+
+#console titlescreen
+#   2
+#   1,J
+#  94
+#   1,J
+#  56
+#   1,D
+#   1,F,180
+#   1,J
+#  14
+#   1,D
+#   1,F,180
+#   1,D
+#   1,J
+#   1,U
+#   1,J
+#   1,O
+#  14
+
+
+
+
+
+   1,D
+   1,J
+  50
+   1,D
+   1,J
+   1,L
+   1,F,270
+   1,L
+   1,F,270
+   1,L
+   1,F,270
+   1,L
+   1,D
+   1,J
+   1,R
+   1,U
+   1,J
+   1,R
+   1,F,90
+   1,R
+   1,J
+   1,L
+   1,F,270
+   1,L
+   1,F,270
+   1,L
+   1,F,270
+   1,D
+   1,J
+   1,D
+   1,F,180
+   1,D
+   1,L
+   1,J
+   1,U
+   1,F,
+   1,U
+   1,F,
+   1,L
+   1,F,270
+   1,J
+   1,R
+   1,J
+   1,S
+  48
+   1,U
+   1,J
+
+
+
+
+#Prologue
+   1,S
+   1,D,J
+  32
+
+Read,Prologue_2Jump,Start
+
+Read,Load1A
+
+Read,1A_2Jump,Start
+
+Read,LoadANoCollects
+
+   1
+Read,2A_2Jump,Start
+
+Read,LoadANoCollects
+
+Read,3A_2Jump,Start
+
+Read,LoadA
+
+Read,4A_2Jump,Start
+
+Read,LoadANoCollects
+
+   1
+Read,5A_Casette_2Jump,Start
+
+Read,LoadBFromA
+
+Read,5B_2Jump,Start
+
+Read,LoadAFromB
+
+Read,6A_Casette_2Jump,Start
+
+Read,LoadBFromA
+
+Read,6B_2Jump,Start
+
+Read,LoadAFromB,Start,Summit
+
+#Summit
+  45
+   1,J
+  32
+
+Read,7A_2Jump,Start
+
+
+#Epilogue
+ 165
+   1,J
+  34
+   1,S
+   1,D,J
+  18
+Read,Epilogue_2Jump_Sbeed,Start
